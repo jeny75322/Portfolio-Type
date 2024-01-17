@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Design Using HTML, CSS & JS</title>
+    <!-- CSS File Link  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Shortcut icon  -->
+    <link rel="shortcut icon" href="Portfolio-pics/logo.png" />
+    <!-- Font Awesome Cdn Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <!-- Scroll JS Link  -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Design  -->
+    <header>
+      <nav>
+        <img src="Portfolio-pics/logo.png" alt="logo" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Porfolio</a></li>
+          <li><a href="#testimonial">Testimonials</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Home Page  -->
+      <section class="home" id="home">
+        <span class="text">Welcome To Our Portfolio</span> <br />
+        <span class="text first-text">Hello I'm a</span> <br />
+        <span class="text sec-text">Coder</span>
+      </section>
+      <button class="home-btn">Download CV</button>
+    </header>
+    <!-- About Page  -->
+    <section class="about" id="about">
+      <div class="about-left-side">
+        <img src="Portfolio-pics/man.png" alt="about-img" />
+      </div>
+      <div class="about-right-side">
+        <h1>About Me</h1>
+        <p>
+          About Me Sed ut perspiciatis unde omnis iste natus error sit
+          voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+          ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur
+          <br />
+          <br />
+          magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+          quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas
+          sit aspernatur aut odit aut fugit, sed quia consequuntur
+        </p>
+        <button>Download CV</button>
+        <button class="about-btn">Portfolio</button>
+      </div>
+    </section>
+    <!-- Services Page  -->
+    <h1 class="head-text">Services</h1>
+    <section class="services" id="services">
+      <div class="services-cards">
+        <i class="fa fa-cog"></i>
+        <h3>Creative Design</h3>
+        <p>
+          Lorem Ipsum simply text of the printing <br />
+          and type setting industry when an <br />
+          unknown printing simply
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-crop"></i>
+        <h3>Clean Code</h3>
+        <p>
+          Lorem Ipsum simply text of the printing <br />
+          and type setting industry when an <br />
+          unknown printing simply
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-codepen"></i>
+        <h3>Responsive Design</h3>
+        <p>
+          Lorem Ipsum simply text of the printing <br />
+          and type setting industry when an <br />
+          unknown printing simply
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-pie-chart"></i>
+        <h3>Bootstrap 4</h3>
+        <p>
+          Lorem Ipsum simply text of the printing <br />
+          and type setting industry when an <br />
+          unknown printing simply
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-code"></i>
+        <h3>Font Icons</h3>
+        <p>
+          Lorem Ipsum simply text of the printing <br />
+          and type setting industry when an <br />
+          unknown printing simply
+        </p>
+      </div>
+      <div class="services-cards">
+        <i class="fa fa-bar-chart"></i>
+        <h3>Awesome Support</h3>
+        <p>
+          Lorem Ipsum simply text of the printing <br />
+          and type setting industry when an <br />
+          unknown printing simply
+        </p>
+      </div>
+    </section>
+    <!-- Counter Section  -->
+    <section class="counter">
+      <div class="flex">
+        <div class="s1">
+          <i class="fa fa-skyatlas"></i>
+          <h1 class="counter-value" data-target="338">0</h1>
+          <h4>HAPPY CLIENTS</h4>
+        </div>
+
+        <div class="s1">
+          <i class="fa fa-heart"></i>
+          <h1 class="counter-value" data-target="885">0</h1>
+          <h4>PROJECTS COMPLEATED</h4>
+        </div>
+
+        <div class="s1">
+          <i class="fa fa-globe"></i>
+          <h1 class="counter-value" data-target="400">0</h1>
+          <h4>FILES DOWNLOADED</h4>
+        </div>
+
+        <div class="s1">
+          <i class="fa fa-user"></i>
+          <h1 class="counter-value" data-target="540">0</h1>
+          <h4>LIENS OF CODE</h4>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Page  -->
+    <h1 class="head-text" id="portfolio">Portfolio</h1>
+    <section class="filter-gallery" id="offer">
+      <div class="filter-options">
+        <button class="filter-option active" data-filter="all">All</button>
+        <button class="filter-option" data-filter="marketing">MARKETING</button>
+        <button class="filter-option" data-filter="design">DESIGN</button>
+        <button class="filter-option" data-filter="development">
+          DEVELOPMENT
+        </button>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery-item marketing">
+          <img src="Portfolio-pics/1.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+              Brex Logo Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item marketing">
+          <img src="Portfolio-pics/2.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+              Brex Logo Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item design">
+          <img src="Portfolio-pics/3.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+              Brex Logo Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item design">
+          <img src="Portfolio-pics/4.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+              Brex Logo Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item development">
+          <img src="Portfolio-pics/5.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+              Brex Logo Brand ......
+            </h1>
+          </div>
+        </div>
+        <div class="gallery-item development">
+          <img src="Portfolio-pics/6.jpg" alt="img" />
+          <div class="overlay">
+            <h1>
+              ...... <br />
+              Brex Logo Brand ......
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Page  -->
+    <section class="testimonial" id="testimonial">
+      <img src="Portfolio-pics/team-1.png" alt="image" id="testi" />
+      <div class="overlay-text">
+        <h6>
+          <span>I'm Austin Fox</span> <br />
+          <br />
+          <div class="ff">I'm web developer</div>
+          <p>
+            A Web Developer with three years of experience, specializing in
+            HTML5, JavaScript, PHP, MySQL, database design, and front-end
+            development.
+          </p>
+        </h6>
+      </div>
+      <p>
+        “Rerum impedit perferendis eos. Primis illum exercitationem, voluptatem
+        doloribus hac <br />
+        facilisis posuere augue nec suscipit duis semper.”
+      </p>
+      <h1>Austin Fox</h1>
+    </section>
+
+    <!-- Blog Page  -->
+    <h1 class="head-text" id="blog">Blog</h1>
+    <div class="packages">
+      <div class="p1">
+        <img src="Portfolio-pics/1.png" alt="img" />
+        <h3>Master These Awesome</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button>Place Now</button>
+      </div>
+
+      <div class="p1">
+        <img src="Portfolio-pics/2.png" alt="image" />
+        <h3>Best Design Items to Appeal</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button>Place Now</button>
+      </div>
+
+      <div class="p1">
+        <img src="Portfolio-pics/3.png" alt="image" />
+        <h3>The 20 Best Lightroom Presets</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button>Place Now</button>
+      </div>
+    </div>
+
+    <!-- Contact Page -->
+    <section class="footer" id="contact">
+      <h1>Send us a Message</h1>
+      <div class="sides">
+        <form class="form">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" /> <br />
+          <br />
+          <input type="text" placeholder=" Subject" />
+          <input type="text" placeholder=" Your Address" /> <br />
+          <br />
+          <textarea cols="65" rows="5" placeholder="Your message"></textarea>
+        </form>
+
+        <div class="content">
+          <h5>123-456-7890</h5>
+          <h5>info@example.com</h5>
+          <h5>123 Central Square, New York</h5>
+          <h2>Sweet Socials</h2>
+          <div class="icons">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JS Link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
